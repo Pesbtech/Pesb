@@ -1,0 +1,497 @@
+body{background-color: gray; 
+    padding: 0;
+     margin: 10px;
+     font-size: 20px;
+}
+
+  .container-form{
+            width: 60%;
+         height:130vh;
+          background-color:lightblue;
+           margin: auto; 
+         text-align: center;
+        padding: 20px;}
+
+      /* GO BACK HOME BUTTON START HERE  */
+
+        .Home{position: relative;
+            float: left;
+            top: 5%;
+            font-size: 30px;
+          
+        }
+        .Home-next{  color: rgb(0, 0, 0);
+
+}
+
+
+/*  GO BACK HOME BUTTON ENDS HERE  */
+
+
+         .form-main{
+padding-bottom: 50px;
+
+         }
+
+         input[type="text"]{ 
+                width: 50%;
+                padding: 15px;
+                margin: 10px 0;
+                border-radius: 15px;
+                border: 1.5px solid gray;
+                text-indent: 20px;
+
+                                }
+
+
+        input[type="text"]:focus{
+
+
+             border-radius: 15px;
+             padding: 15px;
+            border: 1.5px solid gray;
+            outline: none;
+            color: rgb(7, 7, 7);
+            font-size: 16px;}
+
+    ::placeholder{
+                font-size: 20px;
+                color: lightgrey;
+                font-size: 16px;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                font-weight:bold;
+                padding:0 20px;
+                                }
+ 
+    .user{position: absolute;
+        top: 16px;
+        
+        left: 25%}
+
+
+     .form-user{
+        position: relative;
+
+        
+       
+       } 
+
+/* my email styling  start here */
+
+
+input[type="email"]{
+    width: 50%;
+    padding: 15px;
+    border-radius: 15px;
+    border: 1.5px solid gray;
+    text-indent: 20px; }
+
+
+.email{position: relative;
+    top: 38px;
+  left: -24%;
+
+     /* margin: 10px 0; */
+    /* text-indent: -48 %; */
+ 
+}  
+
+email-form {
+    margin-top: 20px;
+  }
+  
+  input[type="email"]:focus {
+    border: 1.5px solid gray;
+    border-radius: 15px; /* Remove the period (.) here */
+    outline: none;
+    color: rgb(7, 7, 7);
+    font-size: 16px;
+  }
+
+  
+  
+
+     /* my email styling   ends here */
+
+     /* my Phone N0 styling   start  here */
+
+    
+    input[type="Tel"]{
+        width: 50%;
+        padding: 15px;
+        /* margin-top: 30px; */
+        border-radius: 15px;
+        border: 1.5px solid gray;
+        text-indent: 20px;
+        
+        }
+        
+        
+        input[type="Tel"]:focus{
+            border-radius: 15px;
+            border: 1.5px solid gray;
+             outline: none;
+             color: rgb(7, 7, 7);
+             font-size: 16px;}
+
+
+             /* .mobile{position: relative;
+                top: -52px;
+                margin-top: 20px;
+                left: -24%; } */
+
+   /* my Phone N0 styling   ends  here */
+
+             .form-class{ margin-top:30px;}
+               
+            
+            
+            
+            
+            
+               
+
+
+   /* my Password styling   start  here */
+ 
+             input[type="password"]{
+                width: 50%;
+                margin-top: 5px;
+                margin-bottom: 15px;
+                padding: 15px;
+                border-radius: 15px;
+                border: 1.5px solid gray;
+                text-indent: 20px;
+                
+                }
+                
+                
+                input[type="password"]:focus{
+                    border-radius: 15px;
+                    border: 1.5px solid gray;
+                     outline: none;
+                     color: rgb(7, 7, 7);
+                     font-size: 16px;}
+
+                     /* .con-pass{   margin-top: 5px; }*/
+
+
+                     
+        
+   /* my Password styling   ends  here */
+
+
+           
+   /* my submit button  styling   start  here */
+                     /* input[type="submit"]{
+                        width: 50%;
+                        background-color: rgb(49, 233, 24);
+                        color: white;
+                        font-weight: bolder;
+                        font-size: 20px;
+                        margin-top: 5px;
+                        padding: 15px;
+                        border-radius: 30px;
+                        border: 1.5px solid rgb(49, 233, 24);
+                        text-indent: 20px; }
+                        
+                        
+                        input[type="submit"]:focus{
+                            border-radius: 15px;
+                            border: 1.5px solid gray;
+                             outline: none;
+                             color: rgb(7, 7, 7);
+                             font-size: 16px;} */
+                
+           /* my submit button  styling   ends here */
+        
+                        
+                
+        .btn-btn{background-color: rgb(11, 99, 11);
+            padding:15px  40px;
+        color: white;
+        border: 0px;
+        border-radius: 15px;
+        font-size: 20px;
+         width: 40%;}
+         
+         .divider-circle{
+background-color: rgb(255, 255, 255);
+border: 1px solid rgb(0, 0, 0)  ;
+border-radius: 20px;
+padding: 15px 15px;
+outline: 5px;
+
+
+         }
+
+       .divider{
+        display: flex;
+        align-items: center; 
+    margin:15px;} 
+
+        .divider::before, .divider::after{
+        content: "";
+         padding: 1px;
+         background-color: rgb(149, 172, 249);
+         flex: 1;
+         margin:10px 3px;
+
+        }
+        
+        /* Social media button */
+         .btn-social{background-color: #3b5998; 
+        color: white;
+        padding: 20px 30px; 
+        text-decoration: none; 
+        margin: 10px;
+        border-radius: 10px;}
+        
+        .btn-social:nth-child(2){
+background-color: rgb(20, 23, 26);
+        }
+
+            
+        .btn-social:nth-child(3){
+         background-color: rgb(241, 23, 23);
+
+
+        }
+        
+/* 
+            @media screen and (min-width: 400px) and (max-width: 855px) {
+              
+                    .container-form {background-color: rgb(16, 19, 204);
+                        width: 100%;
+                        color: white;
+        
+        
+        
+         
+                    }
+        
+                 
+                    
+                    .btn-social{background-color: #3b5998; 
+                      
+                        padding: 10px 20pxpx; 
+                       margin: 5px;
+                  
+                    
+                    }}
+     */
+
+
+
+
+
+        /* THIS IS MY MOBILE RESPONSIVENSSS TABLET */
+         @media(max-width:855px) {
+            .container-form {background-color: rgb(158, 172, 52);
+                width: 100%;
+                color: rgb(1, 0, 0);}
+
+         .btn-social{background-color: #3b5998; 
+              
+                padding: 10px 20pxpx; 
+               margin: 5px;}
+
+
+                 .container-form p{padding: 20px; }
+
+
+                 input[type="email"]{
+                    width: 70%;
+                   }
+                
+
+
+                   input[type="text"]{
+                    width: 70%;
+                   }
+                
+
+
+                   input[type="Tel"]{
+                    width: 70%;
+                   }
+                
+
+
+
+                   input[type="Password"]{
+                    width: 70%;
+                   }
+                
+
+       
+.email{position: relative;
+    top: 37px;
+  left: -32%;}
+
+
+  .user{position: absolute;
+    top: 16px;
+    left: 17%}
+
+
+
+/* overflow-x:hidden; */
+
+
+
+
+
+}
+        
+            
+        
+ 
+
+
+        /* THIS IS MY MOBILE RESPONSIVENSSS MOBILE */
+@media(max-width:599px) {
+    .container-form {background-color: rgb(160, 233, 112);
+        width: 100%;
+        color: rgb(1, 0, 0);}
+
+ .btn-social{background-color: #3b5998; 
+      
+        padding: 10px 10px; 
+       /* margin:25% 5px;} */
+     margin-right: 5px;
+
+   
+
+     .container-form p{padding: 20px; }
+
+
+         input[type="email"]{
+            width: 70%;
+           }
+        
+
+
+           input[type="text"]{
+            width: 70%;
+           }
+        
+
+
+           input[type="Tel"]{
+            width: 70%;
+           }
+        
+
+
+
+           input[type="Password"]{
+            width: 70%;
+           }
+        
+
+
+.email{position: relative;
+top: 37px;
+left: -32%;}
+
+
+.user{position: absolute;
+top: 16px;
+left: 17%}
+
+
+
+overflow-x:hidden;
+
+
+
+
+
+}
+
+        
+}        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
